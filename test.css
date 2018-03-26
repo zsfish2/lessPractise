@@ -1,0 +1,15 @@
+.lessIntro_test {
+  color: #000000;
+  font-family: “微软雅黑”;
+  line-height: 30px;
+  font-size: 14px;
+  border: 1px solid cornflowerblue;
+}
+.lessIntro_test h1 {
+  margin: 0px;
+  font-size: 28px;
+}
+.lessIntro_intro {
+  margin: 0px;
+  text-indent: 2em;
+}

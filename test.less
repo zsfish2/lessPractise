@@ -1,0 +1,21 @@
+//变量设置
+@fontColor:#000000;
+@fontFamily:“微软雅黑”;
+@fontSize:14px;
+.lessIntro_test{
+  color: @fontColor;
+  font-family:@fontFamily;
+  line-height: 30px;
+  font-size:@fontSize;
+  border:1px solid cornflowerblue;
+  //&代表当前选择器
+  & h1{
+    margin:0px;
+    font-size:@fontSize+14;
+  }
+
+}
+.lessIntro_intro{
+  margin:0px;
+  text-indent: 2em;
+}
